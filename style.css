@@ -18,10 +18,6 @@ body{
     height: 450px;
     border: 2px solid black;
 }
-#table > div{
-    border: 2px solid black;
-    cursor: pointer;
-}
 h1{
     font-family: sans-serif;
     font-size: 3rem;
@@ -36,7 +32,6 @@ h1{
     font-family: sans-serif;
     font-size: 1.3rem;
     font-weight: 600;
-    margin-top: 1rem;
     cursor: pointer;
 }
 #restart-game:hover{
@@ -44,4 +39,21 @@ h1{
 }
 #restart-game:active{
     background-color: rgb(30, 190, 255);
+}
+.cell{
+    border: 2px solid black;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#status{
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem;
+    padding: 0;
 }
